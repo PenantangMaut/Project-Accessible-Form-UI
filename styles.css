@@ -1,0 +1,35 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  border: 2px solid black;
+  display: grid;
+}
+
+main {
+  width: 900px;
+  border: 2px solid black;
+  padding: 2em;
+  margin: auto;
+  align-content: center;
+}
+
+.userForm__container {
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1em;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+}
