@@ -13,11 +13,13 @@ body {
 }
 
 main {
-  width: 900px;
+  width: 450px;
   border: 2px solid black;
   padding: 2em;
   margin: auto;
   align-content: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .userForm__container {
@@ -31,5 +33,31 @@ main {
   li {
     display: flex;
     flex-direction: column;
+  }
+}
+
+.progress__container {
+  .progress__progressCircle {
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+  }
+
+  .progressCircle__bar {
+  }
+  .progressCircle__percent h4 {
+    padding-block: 1em;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: rgba(128, 128, 128, 0.156);
+    border-radius: 2em;
+    padding: 1.5em;
+    font-size: 0.75rem;
+    height: 200px;
   }
 }
